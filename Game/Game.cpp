@@ -17,7 +17,7 @@ eDirection menu;
 int y = 3;
 int x = 2;
 
-int obsX = 21;
+int obsX = 21; //Coordinates of obsticle
 int obsY = 2;
 
 int newObsY = 7;
