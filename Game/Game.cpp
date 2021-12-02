@@ -42,7 +42,7 @@ void Draw() //The function that will be displayed on the screen or console
 		SleepTime = 100;
 	}
 	Sleep(100 - SleepTime);
-	system("cls");
+	system("cls"); // Deletes everything from before
 	if (starting == 1)
 	{
 		cout << "Record: " << record << endl;
@@ -50,7 +50,7 @@ void Draw() //The function that will be displayed on the screen or console
 		{
 			for (int j = 0; j <= 20; j++)
 			{
-				if (i != 1 && i != 8)
+				if (i != 1 && i != 8) //background
 				{				
 					if (i == x && j == y)
 					{
@@ -82,7 +82,7 @@ void Draw() //The function that will be displayed on the screen or console
 									}
 									else
 									{
-										SetConsoleTextAttribute(h, 11);
+										SetConsoleTextAttribute(h, 11); //blue color
 										cout << character;
 										SetConsoleTextAttribute(h, 15);
 									}
@@ -145,7 +145,7 @@ void Draw() //The function that will be displayed on the screen or console
 						}
 					}
 				}
-				if (death == 1)
+				if (death == 1)  //When you lose the game resets
 				{
 					system("cls");
 					cout << "You lost";
