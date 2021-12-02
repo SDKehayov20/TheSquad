@@ -10,7 +10,7 @@ HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
 
 bool gameOver;
 
-enum eDirection { up, down, start, settings, back, quit};
+enum eDirection { up, down, start, settings, back, quit };
 eDirection way;
 eDirection menu;
 
@@ -126,7 +126,7 @@ void Draw()
 					break;
 					break;
 				}
-			if (newLevel == 0)
+				if (newLevel == 0)
 				{
 					if (newObsY == 2)
 					{
@@ -277,7 +277,15 @@ void Draw()
 	}
 	else
 	{
-		cout << "Physics game" << endl;
+	cout << "* *  *     ****  ****    ****      ****    ************    ****    ************       ************           *****           *****          *****     ************" << endl;
+	cout << "*     *    *  *  *  *     *  *    *  *     *          *    *  *    *          *       *          *          *     *          *    *        *    *     *          *" << endl;
+	cout << "*     *    *  *  *  *      *  *  *  *      *    *******    *  *    *    *******       *   ********         *   *   *         *     *      *     *     *   ********" << endl;
+	cout << "*   *      *  ****  *       *  *   *       *    *          *  *    *    *             *   *               *   * *   *        *  *   *    *   *  *     *   ********" << endl;
+	cout << "*  *       *  ****  *        *    *        *    *******    *  *    *    *             *   *   ****       *   *   *   *       *  * *  ****  * *  *     *          *" << endl;
+	cout << "*  *       *  *  *  *         *  *         *          *    *  *    *    *             *   *   *  *      *   *     *   *      *  *  *      *  *  *     *   ********" << endl;
+	cout << "*  *       *  *  *  *         *  *         ******     *    *  *    *    *******       *   *****  *     *   *********   *     *  *   ******   *  *     *   ********" << endl;
+	cout << "*  *       *  *  *  *         *  *         *          *    *  *    *          *       *          *    *   ***********   *    *  *            *  *     *          *" << endl;
+	cout << "****       ****  ****         ****         ************    ****    ************       ************   *****           *****   ****            ****     ************ " << endl;
 		cout << "1. Play" << endl;
 		cout << "2. How to play" << endl;
 		cout << "3. Quit" << endl;
@@ -313,12 +321,12 @@ void Input()
 
 			if (start == 1)
 			{
-			case 'w':
-				way = up;
-				break;
-			case 's':
-				way = down;
-				break;
+		case 'w':
+			way = up;
+			break;
+		case 's':
+			way = down;
+			break;
 			}
 		}
 	}
