@@ -10,9 +10,9 @@ HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); //Color data type
 
 bool gameOver; //Shows if the game is on or off
 
-enum eDirection { up, down, start, settings, back, quit }; 
-eDirection way;
-eDirection menu;
+enum eDirection { up, down, start, settings, back, quit }; //function data type
+eDirection way; //function data type
+eDirection menu; //function data type
 
 int y = 3;
 int x = 2;
