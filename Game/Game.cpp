@@ -34,7 +34,7 @@ bool death = 0;
 
 int record = 0;
 
-void Draw()
+void Draw() //The function that will be displayed on the screen or console
 {
 	SleepTime = record / 5;
 	if (record / 5 >= 100)
