@@ -36,7 +36,7 @@ int record = 0;
 
 void Draw() //The function that will be displayed on the screen or console
 {
-	SleepTime = record / 5;
+	SleepTime = record / 5; //The more record you have the faster it gets
 	if (record / 5 >= 100)
 	{
 		SleepTime = 100;
