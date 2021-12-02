@@ -8,9 +8,9 @@ using namespace std;
 
 HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); //Color data type
 
-bool gameOver;
+bool gameOver; //Shows if the game is on or off
 
-enum eDirection { up, down, start, settings, back, quit };
+enum eDirection { up, down, start, settings, back, quit }; 
 eDirection way;
 eDirection menu;
 
