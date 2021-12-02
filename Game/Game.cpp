@@ -14,7 +14,7 @@ enum eDirection { up, down, start, settings, back, quit }; //function data type
 eDirection way; //function data type
 eDirection menu; //function data type
 
-int y = 3;
+int y = 3; //player coordinates
 int x = 2;
 
 int obsX = 21; //Coordinates of obsticle
@@ -23,14 +23,14 @@ int obsY = 2;
 int newObsY = 7; //Coordinates of more obsticles
 int newObsX = 31;
 
-int SleepTime = 0;
-bool starting = 0;
+int SleepTime = 0; //how fast the game should be 
+bool starting = 0; //whether the game is visualized or not
 bool graphics = 0;
-char character = 219;
-char player = 79;
-bool level = 0;
-bool newLevel = 0;
-bool death = 0;
+char character = 219; //the main symbol
+char player = 79; //what your character looks like
+bool level = 0; //type of obsticle
+bool newLevel = 0; 
+bool death = 0; 
 
 int record = 0;
 
