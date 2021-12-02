@@ -20,7 +20,7 @@ int x = 2;
 int obsX = 21; //Coordinates of obsticle
 int obsY = 2;
 
-int newObsY = 7;
+int newObsY = 7; //Coordinates of more obsticles
 int newObsX = 31;
 
 int SleepTime = 0;
