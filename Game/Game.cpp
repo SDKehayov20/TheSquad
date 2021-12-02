@@ -6,7 +6,7 @@
 
 using namespace std;
 
-HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE); //Color data type
 
 bool gameOver;
 
