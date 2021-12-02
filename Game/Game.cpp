@@ -45,16 +45,51 @@ void Draw()
 	system("cls");
 	if (starting == 1)
 	{
-		cout << "Record: " << record << endl;;
+		cout << "Record: " << record << endl;
 		for (int i = 1; i <= 8; i++)
 		{
 			for (int j = 0; j <= 20; j++)
 			{
 				if (i != 1 && i != 8)
-				{
-					SetConsoleTextAttribute(h, 11);
-					cout << character;
-					SetConsoleTextAttribute(h, 15);
+				{				
+					if (i == x && j == y)
+					{
+
+					}
+					else
+					{
+						if (j == obsX && i == obsY)
+						{
+
+						}
+						else
+						{
+							if (j == newObsX && i == newObsY)
+							{
+
+							}
+							else
+							{
+								if (j == newObsX && i - 1 == newObsY && newLevel == 0)
+								{
+
+								}
+								else
+								{
+									if (j == newObsX && i + 1 == newObsY && newLevel == 0)
+									{
+
+									}
+									else
+									{
+										SetConsoleTextAttribute(h, 11);
+										cout << character;
+										SetConsoleTextAttribute(h, 15);
+									}
+								}
+							}
+						}
+					}
 				}
 				if (i == x && j == y)
 				{
