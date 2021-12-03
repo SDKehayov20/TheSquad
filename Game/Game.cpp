@@ -17,10 +17,10 @@ eDirection menu; //function data type
 int y = 3; //player coordinates
 int x = 2;
 
-int obsX = 21; //Coordinates of obsticle
+int obsX = 21; //Coordinates of obstacle
 int obsY = 2;
 
-int newObsY = 7; //Coordinates of more obsticles
+int newObsY = 7; //Coordinates of more obstacles
 int newObsX = 31;
 
 int SleepTime = 0; //how fast the game should be 
@@ -28,7 +28,7 @@ bool starting = 0; //whether the game is visualized or not
 bool graphics = 0;
 char character = 219; //the main symbol
 char player = 79; //what your character looks like
-bool level = 0; //type of obsticle
+bool level = 0; //type of obstacle
 bool newLevel = 0;
 bool death = 0;
 
@@ -322,7 +322,7 @@ void Draw() //The function that will be displayed on the screen or console
 	{
 		cout << "Use W and S to change the gravity" << endl;
 		cout << "press Space to go back or pause the game" << endl;
-		cout << "Run from the green things and touch the dark blue one";
+		cout << "Run from the green things and touch the pink one";
 	}
 	else
 	{
