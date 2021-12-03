@@ -29,8 +29,8 @@ bool graphics = 0;
 char character = 219; //the main symbol
 char player = 79; //what your character looks like
 bool level = 0; //type of obsticle
-bool newLevel = 0; 
-bool death = 0; 
+bool newLevel = 0;
+bool death = 0;
 
 int record = 0;
 
@@ -51,7 +51,7 @@ void Draw() //The function that will be displayed on the screen or console
 			for (int j = 0; j <= 20; j++)
 			{
 				if (i != 1 && i != 8) //background
-				{				
+				{
 					if (i == x && j == y)
 					{
 
@@ -93,9 +93,23 @@ void Draw() //The function that will be displayed on the screen or console
 				}
 				if (i == x && j == y)
 				{
-					SetConsoleTextAttribute(h, 176);
-					cout << player;
-					SetConsoleTextAttribute(h, 15);
+					if (obsX == j && obsY == x)
+					{
+
+					}
+					else
+					{
+						if (newObsX == j && newObsY == i)
+						{
+
+						}
+						else
+						{
+							SetConsoleTextAttribute(h, 176);
+							cout << player;
+							SetConsoleTextAttribute(h, 15);
+						}
+					}
 				}
 				if (i == 1)
 				{
@@ -312,15 +326,15 @@ void Draw() //The function that will be displayed on the screen or console
 	}
 	else
 	{
-	cout << "* *  *     ****  ****    ****      ****    ************    ****    ************       ************           *****           *****          *****     ************" << endl;
-	cout << "*     *    *  *  *  *     *  *    *  *     *          *    *  *    *          *       *          *          *     *          *    *        *    *     *          *" << endl;
-	cout << "*     *    *  *  *  *      *  *  *  *      *    *******    *  *    *    *******       *   ********         *   *   *         *     *      *     *     *   ********" << endl;
-	cout << "*   *      *  ****  *       *  *   *       *    *          *  *    *    *             *   *               *   * *   *        *  *   *    *   *  *     *   ********" << endl;
-	cout << "*  *       *  ****  *        *    *        *    *******    *  *    *    *             *   *   ****       *   *   *   *       *  * *  ****  * *  *     *          *" << endl;
-	cout << "*  *       *  *  *  *         *  *         *          *    *  *    *    *             *   *   *  *      *   *     *   *      *  *  *      *  *  *     *   ********" << endl;
-	cout << "*  *       *  *  *  *         *  *         ******     *    *  *    *    *******       *   *****  *     *   *********   *     *  *   ******   *  *     *   ********" << endl;
-	cout << "*  *       *  *  *  *         *  *         *          *    *  *    *          *       *          *    *   ***********   *    *  *            *  *     *          *" << endl;
-	cout << "****       ****  ****         ****         ************    ****    ************       ************   *****           *****   ****            ****     ************ " << endl;
+		cout << "* *  *     ****  ****    ****      ****    ************    ****    ************       ************           *****           *****          *****     ************" << endl;
+		cout << "*     *    *  *  *  *     *  *    *  *     *          *    *  *    *          *       *          *          *     *          *    *        *    *     *          *" << endl;
+		cout << "*     *    *  *  *  *      *  *  *  *      *    *******    *  *    *    *******       *   ********         *   *   *         *     *      *     *     *   ********" << endl;
+		cout << "*   *      *  ****  *       *  *   *       *    *          *  *    *    *             *   *               *   * *   *        *  *   *    *   *  *     *   ********" << endl;
+		cout << "*  *       *  ****  *        *    *        *    *******    *  *    *    *             *   *   ****       *   *   *   *       *  * *  ****  * *  *     *          *" << endl;
+		cout << "*  *       *  *  *  *         *  *         *          *    *  *    *    *             *   *   *  *      *   *     *   *      *  *  *      *  *  *     *   ********" << endl;
+		cout << "*  *       *  *  *  *         *  *         ******     *    *  *    *    *******       *   *****  *     *   *********   *     *  *   ******   *  *     *   ********" << endl;
+		cout << "*  *       *  *  *  *         *  *         *          *    *  *    *          *       *          *    *   ***********   *    *  *            *  *     *          *" << endl;
+		cout << "****       ****  ****         ****         ************    ****    ************       ************   *****           *****   ****            ****     ************ " << endl;
 		cout << "1. Play" << endl;
 		cout << "2. How to play" << endl;
 		cout << "3. Quit" << endl;
