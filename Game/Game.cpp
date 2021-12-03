@@ -33,6 +33,7 @@ bool newLevel = 0;
 bool death = 0;
 
 int record = 0;
+int bestScore = 0;
 
 void Draw() //The function that will be displayed on the screen or console
 {
@@ -46,6 +47,10 @@ void Draw() //The function that will be displayed on the screen or console
 	if (starting == 1)
 	{
 		cout << "Record: " << record << endl;
+		if (bestScore <= record)
+		{
+			bestScore = record;
+		}
 		for (int i = 1; i <= 8; i++)
 		{
 			for (int j = 0; j <= 20; j++)
@@ -338,6 +343,8 @@ void Draw() //The function that will be displayed on the screen or console
 		cout << "1. Play" << endl;
 		cout << "2. How to play" << endl;
 		cout << "3. Quit" << endl;
+		cout << endl;
+		cout << "Best record: " << bestScore;
 	}
 }
 
