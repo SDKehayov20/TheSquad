@@ -164,22 +164,22 @@ void Draw() //The function that will be displayed on the screen or console
 						}
 					}
 				}
-				if (death == 1)  //When you lose the game resets
-				{
-					system("cls");
-					cout << "You lost";
-					Sleep(5000);
-					starting = 0;
-					graphics = 0;
-					record = 0;
-					obsX = 21;
-					SleepTime = 0;
-					menu = back;
-					death = 0;
-					break;
-					break;
-					break;
-				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				if (newLevel == 0)
 				{
 					if (newObsY == 2)
