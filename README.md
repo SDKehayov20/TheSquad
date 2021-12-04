@@ -12,7 +12,7 @@
 - We are interested in programming!
 - We are fifteen years old!
 
-<h2>More information.</h2>
+<h2>More Information.</h2>
 
 - 🔭 We’re currently working **our project**
 
@@ -21,7 +21,7 @@
 
 
 
-<h2 align="center">💻Information for the project💻</a></h2>
+<h2 align="center">💻Information For The Project💻</a></h2>
 
  - We had to make a game, a program, a calculator related to physics. We decided to make a game in which we control the ball and we must avoid obstacles.
  - The teams are formed with four students, two groups of two students from the same class, and two from separate classes.
@@ -30,7 +30,7 @@
 <p align="center"> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="60" height="60"/> </a>
 
 
-<h2 align="center">To make this project we used:</a></h2>
+<h2 align="center">To Make This Project We Used:</a></h2>
 
 - [x] Github
 - [x] Microsoft Teams
@@ -47,7 +47,7 @@
 Данаил Киров Тодоров - DKTodorov20@codingburgas.bg
 
 <br>
-<h2 align="center">👇Contact us from here:point_down:</h2>
+<h2 align="center">👇Contact Us From Here:point_down:</h2>
 
 <p align="center">
 <a href="https://fb.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="" height="50" width="50" /></a>
