@@ -164,22 +164,6 @@ void Draw() //The function that will be displayed on the screen or console
 						}
 					}
 				}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 				if (newLevel == 0)
 				{
 					if (newObsY == 2)
