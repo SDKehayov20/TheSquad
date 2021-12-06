@@ -35,6 +35,8 @@
 - [x] Github
 - [x] Microsoft Teams
 - [x] Visual Studio
+- [x] Microsoft Word
+- [x] Microsoft PowerPoint
 
 <h2 align="center">💻Teamates💻</a></h2>
 
