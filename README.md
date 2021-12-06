@@ -40,13 +40,13 @@
 
 <h2 align="center">💻Teamates💻</a></h2>
 
-Зафир Пламенов Стоянов - ZPStoyanov20@codingburgas.bg
+Zafir Plamenov Stoyanov- ZPStoyanov20@codingburgas.bg
 <br>
-Даниил Сергеевич Чеботареж - DSChebotarev20@codingburgas.bg
+Daniil Sergeevich Chebotarev - DSChebotarev20@codingburgas.bg
 <br>
-Стелиян Димитров Кехайов - SDKehayov20@codingburgas.bg
+Steliyan Dimitrov Kehayov - SDKehayov20@codingburgas.bg
 <br>
-Данаил Киров Тодоров - DKTodorov20@codingburgas.bg
+Danail Kirov Todorov - DKTodorov20@codingburgas.bg
 
 <br>
 <h2 align="center">👇Contact Us From Here:point_down:</h2>
