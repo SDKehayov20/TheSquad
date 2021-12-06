@@ -29,11 +29,11 @@ bool graphics = 0;
 char character = 219; //the main symbol
 char player = 2; //what your character looks like
 bool level = 0; //type of obstacle
-bool newLevel = 0;
+bool newLevel = 0; //The type of the second obstacle
 bool death = 0;
 
-int record = 0;
-int bestScore = 0;
+int record = 0; //show the record
+int bestScore = 0; //the best score
 
 void Draw() //The function that will be displayed on the screen or console
 {
@@ -42,7 +42,7 @@ void Draw() //The function that will be displayed on the screen or console
 	{
 		SleepTime = 100;
 	}
-	Sleep(100 - SleepTime);
+	Sleep(100 - SleepTime); //How fast the game is
 	system("cls"); // Deletes everything from before
 	if (starting == 1)
 	{
